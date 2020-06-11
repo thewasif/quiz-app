@@ -1,0 +1,47 @@
+.analytics-bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
+  margin-bottom: -10px;
+}
+.text-2 {
+  margin-left: auto;
+}
+
+.bar {
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  border: solid 1px black;
+}
+
+.all-wrong {
+  width: 80%;
+  height: 20px;
+  transition: 0.3s;
+  background-color: black;
+}
+
+.all-correct {
+  width: 50%;
+  height: 20px;
+  position: relative;
+  background-color: #333;
+  opacity: 0.3;
+  top: -20px;
+  transition: 0.3s;
+}
+
+.actual {
+  width: 10%;
+  height: 20px;
+  background-color: #333;
+  opacity: 0.5;
+  position: relative;
+  top: -40px;
+  transition: 0.3s;
+}
